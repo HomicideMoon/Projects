@@ -7,7 +7,7 @@ $Viewport-Width-Units:1vw;
 }
 
 body {
-    background-image: url("../images/bg1.jpg");
+    background-image: url("../img/wixsite/bg1.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
@@ -312,24 +312,25 @@ body {
 
 .content2,
 .content3 {
-    height: 631.25px;
     overflow: hidden;
     text-align: center;
 }
 
 .content2 {
+    height: 486.25px;
     background: #01305c;
     padding-top: 145px;
 }
 
 .content3 {
+    height: 535.625px;
     background: #FFF;
-    padding-top: 95.626px;
+    padding-top: 95.625px;
 }
 
 .content4 {
     height: 573.125px;
-    background-image: url(../images/bg2.jpg);
+    background-image: url(../img/wixsite/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -702,14 +703,12 @@ span.bold {
     .content1 {
         height: vw(808);
     }
-    .content2,
-    .content3 {
-        height: vw(1010)
-    }
     .content2 {
+        height: vw(778);
         padding-top: vw(232);
     }
     .content3 {
+        height: vw(855);
         padding-top: vw(153);
     }
     .content4 {
@@ -848,7 +847,7 @@ span.bold {
         font-size: vw(52);
     }
     .content3 .vertline {
-        height: vw(1123);
+        height: vw(970);
         left: vw(234);
         margin-left: 0;
     }
