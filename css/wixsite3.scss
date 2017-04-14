@@ -14,6 +14,27 @@ body {
     height: auto;
 }
 
+#to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 40px;
+    background: #1869c1;
+    z-index: 999;
+    span {
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        display: block;
+    }
+}
+
 .map {
     width: 100%;
     height: 100%;
@@ -30,19 +51,19 @@ body {
 }
 
 .map .close {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     margin: 5px;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background: red;
     color: white;
-    line-height: 10px;
-    font-size: 10px;
-    border-radius: 5px;
-    z-index: 1235;
+    line-height: 20px;
+    font-size: 20px;
+    border-radius: 10px;
     text-align: center;
+    z-index: 1235;
 }
 
 .cover {
@@ -106,6 +127,7 @@ body {
     font-size: 11.25px;
     text-align: center;
     display: inline-block;
+    color: #00305b;
 }
 
 .banner {
@@ -607,7 +629,11 @@ span.bold {
 
 .info {
     width: 100%;
-    height: 51.25px
+    height: 51.25px;
+    font-size: 12px;
+    line-height: 51.25px;
+    text-align: center;
+    color: #21507d;
 }
 
 @media screen and(max-width:970px) {
@@ -933,7 +959,9 @@ span.bold {
         font-size: vw(24);
     }
     .info {
-        height: vw(82)
+        height: vw(82);
+        line-height: vw(82);
+        font-size: vw(19.2);
     }
 }
 
@@ -1311,6 +1339,8 @@ span.bold {
         font-size: vw(36);
     }
     .info {
-        height: vw(126)
+        height: vw(126);
+        line-height: vw(126);
+        font-size: vw(50);
     }
 }
